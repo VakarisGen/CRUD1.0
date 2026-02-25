@@ -13,7 +13,7 @@ job_postings = [
      'position':'Head of HR',
      'salary':3400,
      'location':'Klaipeda',
-     'required_skills': 'Management', 'Microsoft Excel', 'Public speaking', 'Multitasking'}
+     'required_skills': 'Management, Microsoft Excel, Public speaking, Multitasking'}
 ]
 id_counter = 3
 
