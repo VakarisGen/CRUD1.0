@@ -1,12 +1,11 @@
 from list_CRUD_functions import *
-from list_CRUD_functions import f_show_job_postings
 from test_data import f_load_job_posting
 
 job_postings = f_load_job_posting() # Load test dataset
 id_counter = 3
 
 while True:
-    f_main_menu() # Main menu print
+    f_main_menu()
     choice = input()
     match choice:
         case '1': # displaying existing posts
@@ -18,5 +17,6 @@ while True:
         case '4': # Deleting a post
             f_delete_job_posting(job_postings)
         case '5': # exiting a program
-            print('Exiting application')
             break
+        case _:
+            print("Wrong choice, try again")
